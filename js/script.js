@@ -103,12 +103,20 @@
 // });
 
 //Converter HTMLElements em Array
-const aElements = document.getElementsByTagName("a");
-console.log(aElements);
-const aElementsArray = [...aElements];
-console.log(aElementsArray);
+// const aElements = document.getElementsByTagName("a");
+// console.log(aElements);
+// const aElementsArray = [...aElements];
+// console.log(aElementsArray);
 
-//Imprimindo atributos dos elementos recuperados...
-aElementsArray.forEach((a)=>{
-    console.log(a.href);
-});
+// //Imprimindo atributos dos elementos recuperados...
+// aElementsArray.forEach((a)=>{
+//     console.log(a.href);
+// });
+
+//CONVERTER EM ARRAY
+// const imgElements = [...document.querySelectorAll(".conteudo img")];
+// imgElements.forEach( (img)=>{
+//     img.setAttribute("style","width:30%;")
+// });
+
+
